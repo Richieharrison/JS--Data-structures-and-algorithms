@@ -45,3 +45,24 @@ function exampleCubic(n){
 
 // console.log(exampleCubic(4))
 
+
+
+//-------------------------------------------------------------------------------------
+
+
+// O(log n), algorithm of logarithmic time complexity
+
+// Example is printing elements that are a power of 2 between 2 and n
+
+// The efficiency of logarithmic time complexities is apparent with large inputs such
+// as a million items. Although n is a million, exampleLogarithmic will print only 19
+// items because log2(1,000,000) = 19.9315686. The code that implements this logarithmic
+// behavior is as follows:
+
+function logarithmic(n){
+    for(var i = 2; i <= n; i = i *2){
+        console.log(i)
+    }
+}
+
+console.log(logarithmic(10))
