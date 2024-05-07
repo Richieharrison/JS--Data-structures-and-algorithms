@@ -1,0 +1,7 @@
+0(1) is holy. ~ Hamid Tizhoosh
+
+Big 0 is a way to analyze the effectiveness of algorithms.[time(execution) and space(memory used)]
+
+It asks the Question. "What will happen when n, represents number of inputs, approaches infinity?"
+
+
